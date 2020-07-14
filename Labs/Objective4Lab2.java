@@ -5,10 +5,10 @@ public class Objective4Lab2 {
 
     Scanner keyboard = new Scanner(System.in);
 
-    int num1 = 0, num2 = 0, num3 = 0;
-    double dub1 = 0.0, dub2 = 0.0, dub3 = 0.0;
-    int sum;
-    double total;
+    int num1 = 1, num2 = 7, num3 = 5;
+    double dub1 = 1.1, dub2 = 2.2, dub3 = 3.3;
+    int sum = num1 + num2 + num2;
+    double total = dub1 + dub2 + dub3;
 
     //TODO prompt the user to get input for all of the above int variables.
     System.out.println("Please enter the first whole number you would like to add.");
@@ -31,10 +31,10 @@ public class Objective4Lab2 {
     dub3 = keyboard.nextDouble();
 
     //TODO print the three ints and their sum.
-    System.out.println("The sum of " +  num1 + " + " + num2 + " + " + num3 + " = ");
+    System.out.println("The sum of " +  num1 + " + " + num2 + " + " + num3 + " = " + sum);
 
     //TODO print the three doubles and their sum.
-    System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = ");
+    System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + total);
 
   }
 }
