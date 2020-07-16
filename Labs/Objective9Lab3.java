@@ -8,12 +8,15 @@ public class Objective9Lab3 {
     while(true){
       selection = scanner.nextInt();
       System.out.println("Hello Human");
+      printMenu();
 
       selection = scanner.nextInt();
       System.out.println("Apples, Bananas, Coconuts");
+      printMenu();
 
       selection = scanner.nextInt();
       System.out.println("Goodbye");
+      printMenu();
 
 
     }
