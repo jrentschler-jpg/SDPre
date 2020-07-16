@@ -18,7 +18,7 @@ public class Objective9Lab3 {
       System.out.println("Goodbye");
       printMenu();
 
-
+      scanner.close();
     }
 
   }
