@@ -3,6 +3,7 @@ public class Objective9Lab3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int selection;
+    printMenu();
 
     while(true){
       selection = scanner.nextInt();
@@ -16,7 +17,7 @@ public class Objective9Lab3 {
 
 
     }
-    scanner.close();
+
   }
   public static void printMenu() {
    System.out.println("_____Menu_____");
